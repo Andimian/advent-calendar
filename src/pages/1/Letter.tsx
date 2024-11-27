@@ -52,12 +52,15 @@ export const Letter: FC = () => {
 					<li></li>
 				</ul>
 				<div className='numbersWrapper'>
-					<img src={timeImg} alt="Дата"/>
-					<img src={helloNumberImg} alt="Дата"/>
+					<div><img src={timeImg} alt="Дата"/></div>
+					<div><img src={helloNumberImg} alt="Дата"/></div>
 				</div>
+				<h1 className='title'>
+					Задание №0
+				</h1>
 				<div className='imagesWrapper'>
-					<img src={letterImg2} alt="Письмо деду морозу"/>
-					<img src={letterImg} alt="Письмо деду морозу"/>
+					<div><img src={letterImg2} alt="Письмо деду морозу"/></div>
+					<div><img src={letterImg} alt="Письмо деду морозу"/></div>
 				</div>
 				<div className="title">
 					{/*<PresentImg/>*/}

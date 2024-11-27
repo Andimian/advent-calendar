@@ -9,7 +9,7 @@ function App() {
 
 	return (<div className={css.wrapper}>
 			<Garland/>
-			<BrowserRouter>
+			<BrowserRouter basename='/advent-calendar'>
 				<Routes>
 					<Route
 						path="/1"

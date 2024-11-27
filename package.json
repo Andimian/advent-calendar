@@ -2,15 +2,15 @@
   "name": "advent-calendar",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Andimian.github.io/advent-calendar/",
+  "homepage": "https://andimian.github.io/advent-calendar",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "classnames": "^2.5.1",

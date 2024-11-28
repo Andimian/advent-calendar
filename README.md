@@ -9,4 +9,9 @@
 
 ## QR-коды по дням
 
-![1](https://github.com/Andimian/advent-calendar/blob/master/public/images/qr-code_1.png)
+<div>
+<h3>День 1</h3>
+<img src="https://github.com/Andimian/advent-calendar/blob/master/public/images/qr-code_1.png" 
+alt="Пример изображения" width="300"/>
+</div>
+

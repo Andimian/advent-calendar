@@ -15,19 +15,19 @@ https://andimian.github.io/advent-calendar
 <ul>
 <li>
 <h3>День 1</h3>
-<img src="https://github.com/Andimian/advent-calendar/blob/master/public/assets/images
+<img src="https://github.com/Andimian/advent-calendar/blob/master/assets/images
 /qr-code_1.png" 
 alt="Пример изображения" width="300"/>
 </li>
 <li>
 <h3>День 2</h3>
-<img src="https://github.com/Andimian/advent-calendar/blob/master/public/assets/images
+<img src="https://github.com/Andimian/advent-calendar/blob/master/assets/images
 /qr-code_2.png" 
 alt="Пример изображения" width="300"/>
 </li>
 <li>
 <h3>День 3</h3>
-<img src="https://github.com/Andimian/advent-calendar/blob/master/public/assets/images
+<img src="https://github.com/Andimian/advent-calendar/blob/master/assets/images
 /qr-code_3.png" 
 alt="Пример изображения" width="300"/>
 </li>

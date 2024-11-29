@@ -1,0 +1,79 @@
+.btn {
+	width: auto;
+	height: 45px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	appearance: none;
+
+	background-color: #ff4f5f; /* Красный новогодний цвет */
+	color: #fff; /* Белый текст */
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 40px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+
+	&:hover {
+		background-color: #ff7961; /* Более яркий оттенок красного */
+		box-shadow: 0 0 30px rgba(255, 255, 255, 0.8); /* Светящийся эффект */
+		transform: scale(1.1);
+	}
+	&::before {
+		content: '❄️❄️❄️❄️❄️❄️'; /* Добавляем снежинки как текст */
+		position: absolute;
+		top: -60px;
+		left: 10px;
+		font-size: 30px;
+		animation: snow 2.5s linear infinite;
+	}
+
+	/* Анимация падения снежинок */
+	@keyframes snow {
+		0% {
+			top: -20px;
+			opacity: 1;
+		}
+		100% {
+			top: 100%;
+			opacity: 0;
+		}
+	}
+
+	/* Псевдоэлемент для эффекта сияния */
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: radial-gradient(circle, rgba(255, 255, 255, 0.49) 10%, transparent);
+		opacity: 0;
+		animation: shine 2s infinite;
+	}
+
+	/* Анимация мерцания */
+	@keyframes shine {
+		0% {
+			opacity: 0.5;
+		}
+		50% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0.5;
+		}
+	}
+}
+.dedImg {
+	width: 50px;
+	height: 50px;
+}

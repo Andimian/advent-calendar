@@ -30,6 +30,10 @@ export const AudioPlayer: React.FC = () => {
 				<img src={dedImg} className={styles.dedImg} alt=""/>
 				{isPlaying ? 'Остановить' : 'Послушать'}
 			</button>
-			<audio ref={audioRef} src="public/assets/audio/hello.mp3" onEnded={handleTrackEnd} />
+			<audio
+				ref={audioRef}
+				src="/advent-calendar/assets/audio/hello.mp3"
+				onEnded={handleTrackEnd}
+			/>
 		</div>);
 };

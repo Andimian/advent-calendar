@@ -1,0 +1,30 @@
+/* стили для больших планшетов */
+@media screen and (max-width: 991px) {
+	.title {
+		font-size: 22px;
+	}
+	.task {
+        font-size: 21px;
+	}
+}
+
+/* стили для средних планшетов */
+@media screen and (max-width: 767px) {
+	.title {
+		font-size: 20px;
+	}
+	.task {
+		font-size: 18px;
+	}
+}
+
+/* стили для телефонов */
+@media screen and (max-width: 479px) {
+	.title {
+		font-size: 18px;
+	}
+	.task {
+		font-size: 16px;
+	}
+}
+

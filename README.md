@@ -15,8 +15,7 @@ https://andimian.github.io/advent-calendar
 <ul>
 <li>
 <h3>День 1</h3>
-<img src="https://github.com/Andimian/advent-calendar/blob/master/assets/images
-/qr-code_1.png" 
+<img src="https://github.com/Andimian/advent-calendar/blob/master/public/assets/images/qr-code_1.png" 
 alt="Пример изображения" width="300"/>
 </li>
 <li>

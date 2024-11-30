@@ -26,26 +26,6 @@
 		box-shadow: 0 0 30px rgba(255, 255, 255, 0.8); /* Светящийся эффект */
 		transform: scale(1.1);
 	}
-	&::before {
-		content: '❄️❄️❄️❄️❄️❄️'; /* Добавляем снежинки как текст */
-		position: absolute;
-		top: -60px;
-		left: 10px;
-		font-size: 30px;
-		animation: snow 2.5s linear infinite;
-	}
-
-	/* Анимация падения снежинок */
-	@keyframes snow {
-		0% {
-			top: -20px;
-			opacity: 1;
-		}
-		100% {
-			top: 100%;
-			opacity: 0;
-		}
-	}
 
 	/* Псевдоэлемент для эффекта сияния */
 	&::after {

@@ -6,6 +6,7 @@ import { Garland } from '../features/garland/Garland';
 import treeImg from '../assets/images/tree.jpg';
 import { Snake } from '../pages/2/Snake';
 import { Letter } from '../pages/1/Letter';
+import { PlasticineSnake } from '../pages/3/PlasticineSnake';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 					{/*<Route path="/" element={<AdventCalendar/>}/>*/}
 					<Route path="/1" element={<Letter/>}/>
 					<Route path="/2" element={<Snake/>}/>
-					<Route path="/3" element={<Snake/>}/>
+					<Route path="/3" element={<PlasticineSnake/>}/>
 					<Route path="/4" element={<Snake/>}/>
 					<Route path="/5" element={<Snake/>}/>
 					<Route path="/6" element={<Snake/>}/>

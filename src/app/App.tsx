@@ -7,6 +7,7 @@ import treeImg from '../assets/images/tree.jpg';
 import { Snake } from '../pages/2/Snake';
 import { Letter } from '../pages/1/Letter';
 import { PlasticineSnake } from '../pages/3/PlasticineSnake';
+import { ChristmasTree } from '../pages/4/ChristmasTree';
 
 
 function App() {
@@ -18,24 +19,24 @@ function App() {
 					<Route path="/1" element={<Letter/>}/>
 					<Route path="/2" element={<Snake/>}/>
 					<Route path="/3" element={<PlasticineSnake/>}/>
-					<Route path="/4" element={<Snake/>}/>
-					<Route path="/5" element={<Snake/>}/>
-					<Route path="/6" element={<Snake/>}/>
-					<Route path="/7" element={<Snake/>}/>
-					<Route path="/8" element={<Snake/>}/>
-					<Route path="/9" element={<Snake/>}/>
-					<Route path="/10" element={<Snake/>}/>
-					<Route path="/11" element={<Snake/>}/>
-					<Route path="/12" element={<Snake/>}/>
-					<Route path="/13" element={<Snake/>}/>
-					<Route path="/14" element={<Snake/>}/>
-					<Route path="/15" element={<Snake/>}/>
-					<Route path="/16" element={<Snake/>}/>
-					<Route path="/17" element={<Snake/>}/>
-					<Route path="/18" element={<Snake/>}/>
-					<Route path="/19" element={<Snake/>}/>
-					<Route path="/20" element={<Snake/>}/>
-					<Route path="/21" element={<Snake/>}/>
+					<Route path="/4" element={<ChristmasTree/>}/>
+					<Route path="/5" element={<ChristmasTree/>}/>
+					<Route path="/6" element={<ChristmasTree/>}/>
+					<Route path="/7" element={<ChristmasTree/>}/>
+					<Route path="/8" element={<ChristmasTree/>}/>
+					<Route path="/9" element={<ChristmasTree/>}/>
+					<Route path="/10" element={<ChristmasTree/>}/>
+					<Route path="/11" element={<ChristmasTree/>}/>
+					<Route path="/12" element={<ChristmasTree/>}/>
+					<Route path="/13" element={<ChristmasTree/>}/>
+					<Route path="/14" element={<ChristmasTree/>}/>
+					<Route path="/15" element={<ChristmasTree/>}/>
+					<Route path="/16" element={<ChristmasTree/>}/>
+					<Route path="/17" element={<ChristmasTree/>}/>
+					<Route path="/18" element={<ChristmasTree/>}/>
+					<Route path="/19" element={<ChristmasTree/>}/>
+					<Route path="/20" element={<ChristmasTree/>}/>
+					<Route path="/21" element={<ChristmasTree/>}/>
 					<Route path="/22" element={<Snake/>}/>
 					<Route path="/23" element={<Snake/>}/>
 					<Route path="/24" element={<Snake/>}/>

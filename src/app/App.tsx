@@ -8,6 +8,7 @@ import { Snake } from '../pages/2/Snake';
 import { Letter } from '../pages/1/Letter';
 import { PlasticineSnake } from '../pages/3/PlasticineSnake';
 import { ChristmasTree } from '../pages/4/ChristmasTree';
+import { Dreams } from '../pages/5/Dreams';
 
 
 function App() {
@@ -20,23 +21,23 @@ function App() {
 					<Route path="/2" element={<Snake/>}/>
 					<Route path="/3" element={<PlasticineSnake/>}/>
 					<Route path="/4" element={<ChristmasTree/>}/>
-					<Route path="/5" element={<ChristmasTree/>}/>
-					<Route path="/6" element={<ChristmasTree/>}/>
-					<Route path="/7" element={<ChristmasTree/>}/>
-					<Route path="/8" element={<ChristmasTree/>}/>
-					<Route path="/9" element={<ChristmasTree/>}/>
+					<Route path="/5" element={<Dreams/>}/>
+					<Route path="/6" element={<Dreams/>}/>
+					<Route path="/7" element={<Dreams/>}/>
+					<Route path="/8" element={<Dreams/>}/>
+					<Route path="/9" element={<Dreams/>}/>
 					<Route path="/10" element={<ChristmasTree/>}/>
 					<Route path="/11" element={<ChristmasTree/>}/>
-					<Route path="/12" element={<ChristmasTree/>}/>
+					<Route path="/12" element={<Dreams/>}/>
 					<Route path="/13" element={<ChristmasTree/>}/>
-					<Route path="/14" element={<ChristmasTree/>}/>
+					<Route path="/14" element={<Dreams/>}/>
 					<Route path="/15" element={<ChristmasTree/>}/>
-					<Route path="/16" element={<ChristmasTree/>}/>
+					<Route path="/16" element={<Dreams/>}/>
 					<Route path="/17" element={<ChristmasTree/>}/>
 					<Route path="/18" element={<ChristmasTree/>}/>
-					<Route path="/19" element={<ChristmasTree/>}/>
+					<Route path="/19" element={<Dreams/>}/>
 					<Route path="/20" element={<ChristmasTree/>}/>
-					<Route path="/21" element={<ChristmasTree/>}/>
+					<Route path="/21" element={<Dreams/>}/>
 					<Route path="/22" element={<Snake/>}/>
 					<Route path="/23" element={<Snake/>}/>
 					<Route path="/24" element={<Snake/>}/>

@@ -1,4 +1,5 @@
-
+// import { FC } from 'react';
+//
 // export const AdventCalendar: FC = ({year, month}) => {
 // 	const daysOfWeek = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
 // 	const firstDay = new Date(year, month, 1).getDay();

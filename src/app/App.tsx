@@ -12,6 +12,7 @@ import { Dreams } from '../pages/5/Dreams';
 import { Cleaning } from '../pages/6/Cleaning';
 import React from 'react';
 import { DecoratingChristmasTree } from '../pages/7/DecoratingChristmasTree';
+import { SnowAngel } from '../pages/8/SnowAngel';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
 					<Route path="/5" element={<Dreams/>}/>
 					<Route path="/6" element={<Cleaning/>}/>
 					<Route path="/7" element={<DecoratingChristmasTree/>}/>
-					<Route path="/8" element={<Dreams/>}/>
+					<Route path="/8" element={<SnowAngel/>}/>
 					<Route path="/9" element={<Dreams/>}/>
 					<Route path="/10" element={<Cleaning/>}/>
 					<Route path="/11" element={<Cleaning/>}/>

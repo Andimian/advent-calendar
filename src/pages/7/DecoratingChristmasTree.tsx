@@ -2,7 +2,7 @@ import { FC } from 'react';
 import helloNumberImg from '../../assets/images/7.jpeg';
 import mainImg from './assets/images/ukrash.jpg';
 import timeImg from '../../assets/images/present.svg';
-import css from './dreams.module.scss';
+import css from './style.module.scss';
 
 export const DecoratingChristmasTree: FC = () => {
 	return (

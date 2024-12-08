@@ -13,7 +13,9 @@ import { Cleaning } from '../pages/6/Cleaning';
 import React from 'react';
 import { DecoratingChristmasTree } from '../pages/7/DecoratingChristmasTree';
 import { SnowAngel } from '../pages/8/SnowAngel';
-
+import { Hugs } from '../pages/9/Hugs';
+import { NewYearFairyTales } from '../pages/10/NewYearFairyTales';
+import { NewYearOfOtherCountries } from '../pages/11/NewYearOfOtherCountries';
 
 function App() {
 	return (<div className={css.wrapper}>
@@ -29,9 +31,9 @@ function App() {
 					<Route path="/6" element={<Cleaning/>}/>
 					<Route path="/7" element={<DecoratingChristmasTree/>}/>
 					<Route path="/8" element={<SnowAngel/>}/>
-					<Route path="/9" element={<Dreams/>}/>
-					<Route path="/10" element={<Cleaning/>}/>
-					<Route path="/11" element={<Cleaning/>}/>
+					<Route path="/9" element={<Hugs/>}/>
+					<Route path="/10" element={<NewYearFairyTales/>}/>
+					<Route path="/11" element={<NewYearOfOtherCountries/>}/>
 					<Route path="/12" element={<Cleaning/>}/>
 					<Route path="/13" element={<Cleaning/>}/>
 					<Route path="/14" element={<Cleaning/>}/>

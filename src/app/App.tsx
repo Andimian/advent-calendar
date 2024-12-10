@@ -16,6 +16,7 @@ import { SnowAngel } from '../pages/8/SnowAngel';
 import { Hugs } from '../pages/9/Hugs';
 import { NewYearFairyTales } from '../pages/10/NewYearFairyTales';
 import { NewYearOfOtherCountries } from '../pages/11/NewYearOfOtherCountries';
+import { Feeder } from '../pages/12/Feeder';
 
 function App() {
 	return (<div className={css.wrapper}>
@@ -34,7 +35,7 @@ function App() {
 					<Route path="/9" element={<Hugs/>}/>
 					<Route path="/10" element={<NewYearFairyTales/>}/>
 					<Route path="/11" element={<NewYearOfOtherCountries/>}/>
-					<Route path="/12" element={<Cleaning/>}/>
+					<Route path="/12" element={<Feeder/>}/>
 					<Route path="/13" element={<Cleaning/>}/>
 					<Route path="/14" element={<Cleaning/>}/>
 					<Route path="/15" element={<Cleaning/>}/>

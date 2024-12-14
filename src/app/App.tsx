@@ -18,6 +18,8 @@ import { NewYearFairyTales } from '../pages/10/NewYearFairyTales';
 import { NewYearOfOtherCountries } from '../pages/11/NewYearOfOtherCountries';
 import { Feeder } from '../pages/12/Feeder';
 import { PillowTree } from '../pages/13/PillowTree';
+import { Cartoon } from '../pages/14/Cartoon';
+import { Fantasy } from '../pages/15/Fantasy';
 
 function App() {
 	return (<div className={css.wrapper}>
@@ -38,8 +40,8 @@ function App() {
 					<Route path="/11" element={<NewYearOfOtherCountries/>}/>
 					<Route path="/12" element={<Feeder/>}/>
 					<Route path="/13" element={<PillowTree/>}/>
-					<Route path="/14" element={<Cleaning/>}/>
-					<Route path="/15" element={<Cleaning/>}/>
+					<Route path="/14" element={<Cartoon/>}/>
+					<Route path="/15" element={<Fantasy/>}/>
 					<Route path="/16" element={<Cleaning/>}/>
 					<Route path="/17" element={<Cleaning/>}/>
 					<Route path="/18" element={<Cleaning/>}/>

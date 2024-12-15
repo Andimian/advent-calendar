@@ -20,6 +20,7 @@ import { Feeder } from '../pages/12/Feeder';
 import { PillowTree } from '../pages/13/PillowTree';
 import { Cartoon } from '../pages/14/Cartoon';
 import { Fantasy } from '../pages/15/Fantasy';
+import { Poem } from '../pages/16/Poem';
 
 function App() {
 	return (<div className={css.wrapper}>
@@ -42,7 +43,7 @@ function App() {
 					<Route path="/13" element={<PillowTree/>}/>
 					<Route path="/14" element={<Cartoon/>}/>
 					<Route path="/15" element={<Fantasy/>}/>
-					<Route path="/16" element={<Cleaning/>}/>
+					<Route path="/16" element={<Poem/>}/>
 					<Route path="/17" element={<Cleaning/>}/>
 					<Route path="/18" element={<Cleaning/>}/>
 					<Route path="/19" element={<Cleaning/>}/>

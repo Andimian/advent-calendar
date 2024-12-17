@@ -21,6 +21,8 @@ import { PillowTree } from '../pages/13/PillowTree';
 import { Cartoon } from '../pages/14/Cartoon';
 import { Fantasy } from '../pages/15/Fantasy';
 import { Poem } from '../pages/16/Poem';
+import { GreetingsFromPast } from '../pages/17/GreetingsFromPast';
+import { Youga } from '../pages/18/Youga';
 
 function App() {
 	return (<div className={css.wrapper}>
@@ -44,8 +46,8 @@ function App() {
 					<Route path="/14" element={<Cartoon/>}/>
 					<Route path="/15" element={<Fantasy/>}/>
 					<Route path="/16" element={<Poem/>}/>
-					<Route path="/17" element={<Cleaning/>}/>
-					<Route path="/18" element={<Cleaning/>}/>
+					<Route path="/17" element={<GreetingsFromPast/>}/>
+					<Route path="/18" element={<Youga/>}/>
 					<Route path="/19" element={<Cleaning/>}/>
 					<Route path="/20" element={<Cleaning/>}/>
 					<Route path="/21" element={<Cleaning/>}/>

@@ -25,6 +25,7 @@ import { GreetingsFromPast } from '../pages/17/GreetingsFromPast';
 import { Youga } from '../pages/18/Youga';
 import { AirVolleyball } from '../pages/19/AirVolleyball';
 import { TongueTwisters } from '../pages/20/TongueTwisters';
+import { Cookies } from '../pages/21/Cookies';
 
 function App() {
 	return (<div className={css.wrapper}>
@@ -52,7 +53,7 @@ function App() {
 					<Route path="/18" element={<Youga/>}/>
 					<Route path="/19" element={<AirVolleyball/>}/>
 					<Route path="/20" element={<TongueTwisters/>}/>
-					<Route path="/21" element={<Cleaning/>}/>
+					<Route path="/21" element={<Cookies/>}/>
 					<Route path="/22" element={<Cleaning/>}/>
 					<Route path="/23" element={<Cleaning/>}/>
 					<Route path="/24" element={<Cleaning/>}/>

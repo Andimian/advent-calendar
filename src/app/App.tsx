@@ -26,6 +26,12 @@ import { Youga } from '../pages/18/Youga';
 import { AirVolleyball } from '../pages/19/AirVolleyball';
 import { TongueTwisters } from '../pages/20/TongueTwisters';
 import { Cookies } from '../pages/21/Cookies';
+import { Melody } from '../pages/22/Melody';
+import { Kompl } from '../pages/23/Kompl';
+import { Rebus } from '../pages/24/Rebus';
+import { Snowflake } from '../pages/25/Snowflake';
+import { Palindrome } from '../pages/26/Palindrome';
+import { Crystal } from '../pages/27/Crystal';
 
 function App() {
 	return (<div className={css.wrapper}>
@@ -54,12 +60,12 @@ function App() {
 					<Route path="/19" element={<AirVolleyball/>}/>
 					<Route path="/20" element={<TongueTwisters/>}/>
 					<Route path="/21" element={<Cookies/>}/>
-					<Route path="/22" element={<Cleaning/>}/>
-					<Route path="/23" element={<Cleaning/>}/>
-					<Route path="/24" element={<Cleaning/>}/>
-					<Route path="/25" element={<Cleaning/>}/>
-					<Route path="/26" element={<Cleaning/>}/>
-					<Route path="/27" element={<Cleaning/>}/>
+					<Route path="/22" element={<Melody/>}/>
+					<Route path="/23" element={<Kompl/>}/>
+					<Route path="/24" element={<Rebus/>}/>
+					<Route path="/25" element={<Snowflake/>}/>
+					<Route path="/26" element={<Palindrome/>}/>
+					<Route path="/27" element={<Crystal/>}/>
 					<Route path="/28" element={<Cleaning/>}/>
 					<Route path="/29" element={<Cleaning/>}/>
 					<Route path="/30" element={<Cleaning/>}/>

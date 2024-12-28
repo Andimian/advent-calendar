@@ -32,6 +32,8 @@ import { Rebus } from '../pages/24/Rebus';
 import { Snowflake } from '../pages/25/Snowflake';
 import { Palindrome } from '../pages/26/Palindrome';
 import { Crystal } from '../pages/27/Crystal';
+import { Parrots } from '../pages/28/Parrots';
+import { SewToy } from '../pages/29/SewToy';
 
 function App() {
 	return (<div className={css.wrapper}>
@@ -66,8 +68,8 @@ function App() {
 					<Route path="/25" element={<Snowflake/>}/>
 					<Route path="/26" element={<Palindrome/>}/>
 					<Route path="/27" element={<Crystal/>}/>
-					<Route path="/28" element={<Cleaning/>}/>
-					<Route path="/29" element={<Cleaning/>}/>
+					<Route path="/28" element={<Parrots/>}/>
+					<Route path="/29" element={<SewToy/>}/>
 					<Route path="/30" element={<Cleaning/>}/>
 					<Route path="/31" element={<Cleaning/>}/>
 				</Routes>

@@ -13,7 +13,7 @@ export const Letter: FC = () => {
 				<div><img src={helloNumberImg} alt="Дата"/></div>
 			</div>
 
-			<AudioPlayer/>
+			<AudioPlayer url="/advent-calendar/assets/audio/hello.mp3"/>
 
 			<div className="title">
 				{/*<PresentImg/>*/}

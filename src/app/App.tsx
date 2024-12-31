@@ -35,6 +35,7 @@ import { Crystal } from '../pages/27/Crystal';
 import { Parrots } from '../pages/28/Parrots';
 import { SewToy } from '../pages/29/SewToy';
 import { Photosesion } from '../pages/30/Photosession';
+import { NeyYear } from '../pages/31/NeyYear';
 
 function App() {
 	return (<div className={css.wrapper}>
@@ -72,7 +73,7 @@ function App() {
 					<Route path="/28" element={<Parrots/>}/>
 					<Route path="/29" element={<SewToy/>}/>
 					<Route path="/30" element={<Photosesion/>}/>
-					<Route path="/31" element={<Cleaning/>}/>
+					<Route path="/31" element={<NeyYear/>}/>
 				</Routes>
 			</BrowserRouter>
 			<div className='endImg'><img src={treeImg} alt="Дата"/></div>

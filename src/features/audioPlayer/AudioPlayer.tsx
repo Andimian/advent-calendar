@@ -2,7 +2,11 @@ import { useRef, useState } from 'react';
 import styles from './styles.module.scss';
 import dedImg from '../../assets/images/ded.png';
 
-export const AudioPlayer: React.FC = () => {
+interface Props {
+	url: string,
+}
+
+export const AudioPlayer: React.FC<Props> = ({url}) => {
 	// Используем useRef для создания ссылки на элемент audio
 	const audioRef = useRef<HTMLAudioElement | null>(null);
 	const [isPlaying, setIsPlaying] = useState(false);
@@ -32,7 +36,8 @@ export const AudioPlayer: React.FC = () => {
 			</button>
 			<audio
 				ref={audioRef}
-				src="/advent-calendar/assets/audio/hello.mp3"
+				// src="/advent-calendar/assets/audio/hello.mp3"
+				src={url}
 				onEnded={handleTrackEnd}
 			/>
 		</div>);
